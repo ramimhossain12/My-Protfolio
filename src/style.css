@@ -695,7 +695,11 @@ ABOUT
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
+.box-shadow-full{
+         background-image: url(./img/bio-bg.png);
+         background-repeat: no-repeat;
+        
+}
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
@@ -728,6 +732,110 @@ ABOUT
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
 }
+
+/* 
+Eudcation 
+
+*/
+
+.card1 {
+  background-color:#32C54E;
+  color: white;
+   width: 365px;
+   
+  box-shadow: 2px 4px 4px grey;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.card1:hover  {
+  color: black;
+  background-color: white;
+  
+
+
+}
+ 
+
+
+
+.card2{
+  background-color: #6978FB;
+  background-image: url(./img/bio-bg.png);
+  color: white;
+  width: 365px;
+  box-shadow: 2px 4px 4px grey;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.card2:hover {
+  color: black;
+  background-color: white;
+   
+
+}
+
+.title22{
+  color: black;
+  font-size: 22px;
+}
+.title222 {
+  color: black;
+  font-size: 16px;
+}
+
+.date22 {
+  color: black;
+  font-size: 15px;
+}
+
+
+
+
+.card3 {
+  background-color: #369ED0;
+  color: white;
+    
+   width: 365px;
+  box-shadow: 2px 4px 4px grey;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.card3:hover {
+  color: black;
+  background-color: white;
+
+
+}
+
+ 
+
+
+.title2{
+  color: white;
+  font-size: 22px;
+}
+.date{
+  color: white;
+  font-size: 15px;
+}
+
+/* 
+Eudcation 
+
+*/
+
 
 /*
 PORTFOLIO
@@ -853,6 +961,7 @@ footer .copyright {
   margin-bottom: .3rem;
 }
 
+ 
 /*
 CONTACT 
 */

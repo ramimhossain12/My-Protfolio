@@ -101,6 +101,7 @@ class Contact extends React.Component {
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
                         <h5 className="title-left">Get in Touch</h5>
+                       
                       </div>
                       <div className="more-info">
                         <p className="lead">
@@ -164,7 +165,9 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
+                
                 <div className="copyright-box">
+                 
                 </div>
               </div>
             </div>
