@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/My-Protfolio/static/css/main.48e53810.chunk.css",
+    "main.js": "/My-Protfolio/static/js/main.aae0c8ce.chunk.js",
+    "main.js.map": "/My-Protfolio/static/js/main.aae0c8ce.chunk.js.map",
+    "runtime-main.js": "/My-Protfolio/static/js/runtime-main.785ce0fb.js",
+    "runtime-main.js.map": "/My-Protfolio/static/js/runtime-main.785ce0fb.js.map",
+    "static/css/2.f6122f81.chunk.css": "/My-Protfolio/static/css/2.f6122f81.chunk.css",
+    "static/js/2.ab9c347a.chunk.js": "/My-Protfolio/static/js/2.ab9c347a.chunk.js",
+    "static/js/2.ab9c347a.chunk.js.map": "/My-Protfolio/static/js/2.ab9c347a.chunk.js.map",
+    "index.html": "/My-Protfolio/index.html",
+    "precache-manifest.d434f94f2e9d6c30594789575b76cdf2.js": "/My-Protfolio/precache-manifest.d434f94f2e9d6c30594789575b76cdf2.js",
+    "service-worker.js": "/My-Protfolio/service-worker.js",
+    "static/css/2.f6122f81.chunk.css.map": "/My-Protfolio/static/css/2.f6122f81.chunk.css.map",
+    "static/css/main.48e53810.chunk.css.map": "/My-Protfolio/static/css/main.48e53810.chunk.css.map",
+    "static/js/2.ab9c347a.chunk.js.LICENSE.txt": "/My-Protfolio/static/js/2.ab9c347a.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/My-Protfolio/static/media/back.88375a79.png",
+    "static/media/earth.jpg": "/My-Protfolio/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/My-Protfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image1.jpg": "/My-Protfolio/static/media/image1.768998c6.jpg",
+    "static/media/image2.jpg": "/My-Protfolio/static/media/image2.8de6195d.jpg",
+    "static/media/image3.jpg": "/My-Protfolio/static/media/image3.28470933.jpg",
+    "static/media/image4.jpg": "/My-Protfolio/static/media/image4.0b37f434.jpg",
+    "static/media/image5.jpg": "/My-Protfolio/static/media/image5.8d16c4af.jpg",
+    "static/media/image6.jpg": "/My-Protfolio/static/media/image6.62b7cc75.jpg",
+    "static/media/ionicons.css": "/My-Protfolio/static/media/ionicons.c037dbbc.svg",
+    "static/media/male.png": "/My-Protfolio/static/media/male.a82ab1cd.png",
+    "static/media/male1.png": "/My-Protfolio/static/media/male1.3ec3891b.png",
+    "static/media/myImage.png": "/My-Protfolio/static/media/myImage.bd80794f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.785ce0fb.js",
+    "static/css/2.f6122f81.chunk.css",
+    "static/js/2.ab9c347a.chunk.js",
+    "static/css/main.48e53810.chunk.css",
+    "static/js/main.aae0c8ce.chunk.js"
+  ]
+}
