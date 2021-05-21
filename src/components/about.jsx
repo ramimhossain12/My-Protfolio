@@ -6,56 +6,91 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "Java_skill", content: "JAVA STACK", porcentage: "95%", value: "80" },
+        { id: "Kotlin_skill", content: "KOTLIN STACK", porcentage: "85%", value: "80" },
+        { id: "Dart_skill", content: "DART STACK", porcentage: "90%", value: "80" },
+
+
+
+
+
+
+        
         {
           id: "JavaScript_skill",
-          content: "JavaScript",
+          content: "JAVA SCRIPT STACK",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
+        { id: "PHP_skill", content: "PHP STACK", porcentage: "70%", value: "70" },
+         
         {
           id: "Python_skill",
-          content: "Python",
+          content: "PYTHON STACK",
           porcentage: "75%",
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Android_skill",
+          content: "NATIVE ANDROID DEVELOPMENT",
+          porcentage: "95%",
+          value: "75"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "ios_skill",
+          content: "NATIVE iOS DEVELOPMENT",
+          porcentage: "75%",
+          value: "75"
+        },
+        {
+          id: "Cross_skill",
+          content: "CROSS PLATFORM MOBILE APPS",
+          porcentage: "85%",
+          value: "75"
+        },
+        {
+          id: "Database_skill",
+          content: "DATABASE DESIGN & ADMINISTRATIO",
+          porcentage: "85%",
+          value: "75"
+        },
+        {
+          id: "DEVOPS_skill",
+          content: "DEVOPS",
           porcentage: "80%",
-          value: "80"
-        }
+          value: "75"
+        },
+
+
+        {
+          id: "Front_skill",
+          content: "FRONT END DEVELOPER",
+          porcentage: "85%",
+          value: "75"
+        },
+
+        {
+          id: "Back_skill",
+          content: "BACK END DEVELOPER",
+          porcentage: "90%",
+          value: "75"
+        },
+
+
+
+
+
+        
+        
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+             "I am passionate Software Engineer/ Developer 🚀 having an experience of building Game and Mobile applications with Unity/ Android / iOS / React Native /Flutter and some other cool libraries and frameworks.I got the raw software development related skill to shift myself in any gear.I am a passionate tech lover & problem solver always ready to face new challenges.🔰"
         },
-        {
-          id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+         
+        
       ]
     };
   }
@@ -86,7 +121,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      {<p className="title-s">My Skills</p> }
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
@@ -119,8 +154,65 @@ class About extends React.Component {
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
-                        );
+
+                       );
+                       
                       })}
+
+                      <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-codepen"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-facebook"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+   
+                       
+                       
+
                     </div>
                   </div>
                 </div>
