@@ -14,15 +14,17 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am XYZ</h1>
+              <h1 className="intro-title mb-4">Hello, I'm Ramim Hossain👋</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
+                      "Software Engineer",
+                       "Moblie Application Developer",
                       "Front End Developer",
                       "Back End Developer",
-                      "Software Engineer"
+                
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -37,7 +39,14 @@ class Intro extends React.Component {
                   href="#work"
                   role="button"
                 >
-                  View My Work
+                 🎉 View My Work
+                </a>
+                <a
+                  className="btn2 btn-dark btn js-scroll px-4"
+                  href="https://drive.google.com/file/d/1RVWJ2Tlg7tN2FSK5LPJGeF_yDC-IlfSV/view?usp=sharing"
+                  role="button"
+                >
+                  👍 See My Resume
                 </a>
               </p>
             </div>
