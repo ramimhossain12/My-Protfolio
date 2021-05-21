@@ -209,8 +209,34 @@ class About extends React.Component {
                         </ul>
                       </div>
 
-   
-                       
+
+                     <div className='t'>
+
+                        <div className='container'>
+                          <div className='row mtn-40'>
+                            <div className='col-6 md-3 text-center'>
+                              <div className='counter-item'>
+                                <h2 className='counter-number'>
+                                  <div>
+                                    <span>3</span>
+                                    <span className='sr-only'>+</span>
+                                  </div>
+
+
+                                </h2>
+
+                                <h2>Happy Clients</h2>
+
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                     </div>
+
+
                        
 
                     </div>
