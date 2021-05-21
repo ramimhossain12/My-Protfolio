@@ -22,6 +22,8 @@ import * as serviceWorker from './serviceWorker';
 //import components
 import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
+import Back from './components/back';
+
 import About from './components/about.jsx';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
@@ -34,6 +36,7 @@ ReactDOM.render(
     <React.Fragment>
         <Navbar />
         <Intro />
+        <Back />
         <About />
         <Portfolio />
         <Contact />
