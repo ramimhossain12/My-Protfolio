@@ -1,5 +1,5 @@
 import React from "react";
-import imageOverlay from "../img/earth.jpg";
+import imageOverlay from "../img/contact.jpg";
  
 
 class Contact extends React.Component {
@@ -16,6 +16,74 @@ class Contact extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
+                    
+                    
+
+                    <div className="col-md-6">
+                      <div className="title-box-2 pt-4 pt-md-0">
+
+                        <h5 className="title-left"> Reach Out To Me!😜😜😜</h5>
+                        <img className='fff'></img>
+
+                      </div>
+                      <div className="more-info">
+                        <h6>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</h6>
+                        <p className="lead">
+                          I’m an  FullStack Web And Mobile Application Developer.Passionate by mobile technologies. | Open Source Contributor 🔥 | Algorithms Expert🔥 | Researcher🔰 | Problem Solver  | Tech Writer ✍️
+                          Whether you want to get in touch, talk about a project
+                          collaboration, or just say hi, I'd love to hear from
+                          you.
+                          <br />
+                          Simply fill the from and send me an email.
+                        </p>
+                        {<ul class="list-ico">
+                          <li><span class="ion-ios-location"></span> Dhanmondi 27 sukrabad 1209 , Dhaka Bangladesh</li>
+                          <li><span class="ion-ios-telephone"></span> (+880) 173---</li>
+                          <li><span class="ion-email"></span> ramim.cse.info@gmail.com</li>
+                        </ul>}
+                      </div>
+                      <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-codepen"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+
+
+
                     <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left">Send A Message</h5>
@@ -96,63 +164,6 @@ class Contact extends React.Component {
                             </div>
                           </div>
                         </form>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
-                       
-                      </div>
-                      <div className="more-info">
-                        <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
-                          <br />
-                          Simply fill the from and send me an email.
-                        </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
-                      </div>
-                      <div className="socials">
-                        <ul>
-                          <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
                       </div>
                     </div>
                   </div>

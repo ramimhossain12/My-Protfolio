@@ -681,6 +681,9 @@ INTRO
 
 .btn2 {
   margin-left: 10px;
+  margin-top: 3px;
+  
+ 
 }
 
 
@@ -723,6 +726,12 @@ ABOUT
   height: .6rem;
 
   background-color: black;
+}
+
+#about {
+  background: url(./img/my-bg.png);
+  background-repeat: no-repeat;
+
 }
 
 
@@ -769,8 +778,10 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 
 
 .card2{
-  background-color: #6978FB;
-  background-image: url(./img/bio-bg.png);
+   background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%),
+   linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+   background-blend-mode: multiply;
+ 
   color: white;
   width: 365px;
   box-shadow: 2px 4px 4px grey;
@@ -799,20 +810,22 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 }
 
 .title22{
-  color: black;
+
+   color: orange;
   font-size: 22px;
 }
 .title222 {
-  color: black;
+  color: white;
   font-size: 16px;
 }
 
 .date22 {
-  color: black;
+ color: white;
   font-size: 15px;
 }
 
 
+ 
 
 
 .card3 {
@@ -1049,15 +1062,17 @@ BUTTON
 }
 
 .button:hover {
-  background-color: #0062d3;
-  color: #fff;
+  color: #000;
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
   transition: all 500ms ease;
 }
 
 .button-a {
   background-color: #0078ff;
   color: #fff;
+   background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
   border-color: #cde1f8;
+ 
 }
 
 .button-big {
