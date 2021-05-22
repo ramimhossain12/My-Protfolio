@@ -700,8 +700,9 @@ ABOUT
 }
 .box-shadow-full{
          background-image: url(./img/bio-bg.png);
-         background-repeat: no-repeat;
-        
+          background-repeat: no-repeat;
+           background-position: bottom right;
+          
 }
 .about-mf .about-img {
   margin-bottom: 2rem;
@@ -731,6 +732,7 @@ ABOUT
 #about {
   background: url(./img/my-bg.png);
   background-repeat: no-repeat;
+  background-position: bottom top;
 
 }
 
@@ -746,6 +748,12 @@ ABOUT
 Eudcation 
 
 */
+
+#education{
+  background-image: url(./img/dream-bg.png);
+  background-repeat: no-repeat;
+background-position: right;
+}
 
 .card1 {
   background-color:#32C54E;
