@@ -740,12 +740,13 @@ Eudcation
 
 .card1 {
   background-color:#32C54E;
-  color: white;
+  color: black;
    width: 365px;
-   
+    background-image: linear-gradient(to right, #f6d365, #fda085);
   box-shadow: 2px 4px 4px grey;
   border-radius: 5px;
   margin: 6px;
+  
   padding: 10px;
   display: inline-block;
 
@@ -753,12 +754,17 @@ Eudcation
 
 .card1:hover  {
   color: black;
+transform: rotateX(45deg) scale(0.7);
   background-color: white;
   
-
+cursor: text;
+ transform: rotate(0deg) scale(1.6);
+transition: .9s all ease;
+z-index: 400;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 
 }
- 
+
 
 
 
@@ -776,8 +782,18 @@ Eudcation
 }
 
 .card2:hover {
+
+
   color: black;
+  transform: rotateX(45deg) scale(0.7);
   background-color: white;
+
+  cursor: text;
+ transform: rotate(0deg) scale(1.6);
+  transition: .9s all ease;
+  z-index: 400;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+
    
 
 }
@@ -801,8 +817,8 @@ Eudcation
 
 .card3 {
   background-color: #369ED0;
-  color: white;
-    
+  color: black;
+ background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
    width: 365px;
   box-shadow: 2px 4px 4px grey;
   border-radius: 5px;
@@ -813,8 +829,16 @@ Eudcation
 }
 
 .card3:hover {
-  color: black;
-  background-color: white;
+ color: black;
+ 
+ background-color: white;
+
+ cursor: text;
+ transform: rotate(0deg) scale(1.6);
+transition: .9s all ease;
+ z-index: 400;
+ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+
 
 
 }
