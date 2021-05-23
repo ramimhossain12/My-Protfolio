@@ -22,7 +22,7 @@ class Contact extends React.Component {
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
 
-                        <h5 className="title-left"> Reach Out To Me!😜😜😜</h5>
+                        <h5 className="title-left"> Reach Out To Me!😜😜</h5>
                         <img className='fff'></img>
 
                       </div>

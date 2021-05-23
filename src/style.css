@@ -701,7 +701,6 @@ INTRO
 
 
 
-
 /*
 ABOUT
 */
@@ -757,6 +756,33 @@ ABOUT
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
 }
+
+
+/* what i do */
+
+
+.tp {
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 9px 9px 9px white;
+  padding: 0.5em 0.6em;
+
+}
+
+
+.font {
+  font-size: 15px;
+  text-align: end;
+}
+
+.title22 {
+  color: #000;
+  font-size: 14px;
+}
+
+
 
 /* 
 Eudcation 
@@ -1207,3 +1233,6 @@ BUTTON
     bottom: 15px;
   }
 }
+
+
+
