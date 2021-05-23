@@ -25,6 +25,7 @@ import Do from './App';
 import Intro from './components/intro.jsx';
 import Back from './components/back';
 import About from './components/about.jsx';
+
  import Educaton from './components/education.jsx';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
@@ -40,12 +41,11 @@ ReactDOM.render(
     <React.Fragment>
         <Navbar />
         <Intro />
-       
         <About />
          <Do />
-          < Back / >
         <Educaton  />
          <Portfolio />
+    
         <Contact />
         <BackToTop />
         <Preloader />

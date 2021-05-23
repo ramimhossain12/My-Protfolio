@@ -1,6 +1,5 @@
 import React from "react";
 import imageOverlay from "../img/contact.jpg";
- 
 
 class Contact extends React.Component {
   render() {
@@ -9,40 +8,51 @@ class Contact extends React.Component {
         className=" tt paralax-mf footer-paralax bg-image sect-mt4 route"
         style={{ backgroundImage: "url(" + imageOverlay + ")" }}
       >
-        <div className="overlay-mf"></div>
+        <div className="overlay-mf1"></div>
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
               <div className="contact-mf">
-                <div id="contact" className="box-shadow-full">
+                <div id="contact" className="box-shadow-full11">
                   <div className="row">
-                    
-                    
-
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-
-                        <h5 className="title-left"> Reach Out To Me!😜😜</h5>
-                        <img className='fff'></img>
-
+                        <h5 className="title-left1"> Reach Out To Me!😜😜</h5>
+                         
                       </div>
-                      <div className="more-info">
-                        <h6>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</h6>
+                      <div className="more-info1">
                         <p className="lead">
-                          I’m an  FullStack Web And Mobile Application Developer.Passionate by mobile technologies. | Open Source Contributor 🔥 | Algorithms Expert🔥 | Researcher🔰 | Problem Solver  | Tech Writer ✍️
-                          Whether you want to get in touch, talk about a project
+                          DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS
+                          OPEN FOR ALL
+                          <br />
+                          I’m an FullStack Web And Mobile Application
+                          Developer.Passionate by mobile technologies. | Open
+                          Source Contributor 🔥 | Algorithms Expert🔥 |
+                          Researcher🔰 | Problem Solver | Tech Writer ✍️ Whether
+                          you want to get in touch, talk about a project
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        {<ul class="list-ico">
-                          <li><span class="ion-ios-location"></span> Dhanmondi 27 sukrabad 1209 , Dhaka Bangladesh</li>
-                          <li><span class="ion-ios-telephone"></span> (+880) 173---</li>
-                          <li><span class="ion-email"></span> ramim.cse.info@gmail.com</li>
-                        </ul>}
+                        {
+                          <ul class="list-ico">
+                            <li>
+                              <span class="ion-ios-location"></span> Dhanmondi
+                              27 sukrabad 1209 , Dhaka Bangladesh
+                            </li>
+                            <li>
+                              <span class="ion-ios-telephone"></span> (+880)
+                              173---
+                            </li>
+                            <li>
+                              <span class="ion-email"></span>{" "}
+                              ramim.cse.info@gmail.com
+                            </li>
+                          </ul>
+                        }
                       </div>
-                      <div className="socials">
+                      <div className="socials1">
                         <ul>
                           <li>
                             <a
@@ -81,14 +91,32 @@ class Contact extends React.Component {
                       </div>
                     </div>
 
+                     {/* <div className="col-md-6">
+                      <img
+                        className="profile-img"
+                        src={process.env.PUBLIC_URL + "/images/pro.png "}
+                      
+                      ></img>
+                    </div>
+ */}
+
+
+
+
+
+
+
+
+
+
 
 
 
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left1">Send A Message</h5>
                       </div>
-                      <div>
+                      <div  className='pro'>
                         <form
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
@@ -166,6 +194,8 @@ class Contact extends React.Component {
                         </form>
                       </div>
                     </div>
+
+                   
                   </div>
                 </div>
               </div>
@@ -176,10 +206,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                
-                <div className="copyright-box">
-                 
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
