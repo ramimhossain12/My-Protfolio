@@ -17,11 +17,11 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left1"> Reach Out To Me!😜😜</h5>
+                        <h5 className="title-left1" data-aos="fade-up"> Reach Out To Me!😜😜</h5>
                          
                       </div>
                       <div className="more-info1">
-                        <p className="lead">
+                        <p className="lead" data-aos="fade-up">
                           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS
                           OPEN FOR ALL
                           <br />
@@ -36,7 +36,7 @@ class Contact extends React.Component {
                           Simply fill the from and send me an email.
                         </p>
                         {
-                          <ul class="list-ico">
+                          <ul class="list-ico" data-aos="fade-up">
                             <li>
                               <span class="ion-ios-location"></span> Dhanmondi
                               27 sukrabad 1209 , Dhaka Bangladesh
@@ -52,7 +52,7 @@ class Contact extends React.Component {
                           </ul>
                         }
                       </div>
-                      <div className="socials1">
+                      <div className="socials1" data-aos="fade-up">
                         <ul>
                           <li>
                             <a
@@ -112,8 +112,8 @@ class Contact extends React.Component {
 
 
 
-                    <div className="col-md-6">
-                      <div className="title-box-2">
+                    <div className="col-md-6" data-aos="slide-left">
+                      <div className="title-box-2" >
                         <h5 className="title-left1">Send A Message</h5>
                       </div>
                       <div  className='pro'>
@@ -128,7 +128,7 @@ class Contact extends React.Component {
                           <div id="errormessage"></div>
                           <div className="row">
                             <div className="col-md-12 mb-3">
-                              <div className="form-group">
+                              <div className="form-group" >
                                 <input
                                   type="text"
                                   name="name"
@@ -142,7 +142,7 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12 mb-3">
-                              <div className="form-group">
+                              <div className="form-group" >
                                 <input
                                   type="email"
                                   className="form-control"
@@ -156,7 +156,7 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12 mb-3">
-                              <div className="form-group">
+                              <div className="form-group" >
                                 <input
                                   type="text"
                                   className="form-control"

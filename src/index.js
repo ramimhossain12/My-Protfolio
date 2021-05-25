@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+ 
 //import css in order
 import 'normalize.css';
 import './animate.css';
@@ -22,6 +22,7 @@ import * as serviceWorker from './serviceWorker';
 //import components
 import Navbar from './components/navbar.jsx';
 import Do from './App';
+import Tea from './Test';
 import Intro from './components/intro.jsx';
 import Back from './components/back';
 import About from './components/about.jsx';
@@ -38,19 +39,21 @@ import Preloader from './components/preloader';
 
 
 ReactDOM.render(
-    <React.Fragment>
-        <Navbar />
-        <Intro />
-        <About />
-         <Do />
-        <Educaton  />
-         <Portfolio />
-    
-        <Contact />
-        <BackToTop />
-        <Preloader />
-    </React.Fragment>,
-document.getElementById('root'));
+  <React.Fragment>
+    <Navbar />
+    <Intro />
+    <About />
+    <Do />
+    <Educaton />
+    <Portfolio />
+    <Tea />
+
+    <Contact />
+    <BackToTop />
+    <Preloader />
+  </React.Fragment>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
