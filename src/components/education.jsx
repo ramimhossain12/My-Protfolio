@@ -24,7 +24,7 @@ class Eudcation extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className='card1' data-aos="slide-right">
+                        <div className='card1' data-aos="slide-right"  data-aos-mirror="true" >
                            
                             <h2 className='title2'>Daffodil International University</h2>
                             <p>Schmerz ihr was wirklichkeiten beifall mein wird was stunden schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich, verschwand irrt herzen.</p>

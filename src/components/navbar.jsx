@@ -108,7 +108,8 @@ class Navbar extends React.Component {
           </button>
           <div
             className="navbar-collapse collapse justify-content-end"
-            id="navbarDefault" data-aos="fade-up-right"
+            id="navbarDefault"
+            data-aos="fade-up-right"
           >
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -126,14 +127,18 @@ class Navbar extends React.Component {
                   Education
                 </a>
               </li>
-               
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#exper">
+                  EXPERIENCES
+                </a>
+              </li>
+
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
                   Work
                 </a>
               </li>
 
-              
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
                   Contact
