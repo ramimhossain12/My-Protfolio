@@ -3,7 +3,7 @@ import React from "react";
 class Eudcation extends React.Component {
   render() {
     return (
-      <section id="exper" className="portfolio-mf sect-pt4 route">
+      <section id="exper"  className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

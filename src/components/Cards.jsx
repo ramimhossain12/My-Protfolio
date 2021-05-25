@@ -23,16 +23,16 @@ class Cards extends Component {
                 <div className="line-mf"></div>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2" data-aos="slide-right">
               <Card imgsrc={img1} title="iOS Developer" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2" data-aos="slide-up">
               <Card imgsrc={img2} title="Android Developer" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2" data-aos="slide-down">
               <Card imgsrc={img2} title="Programmer" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2" data-aos="slide-left">
               <Card imgsrc={img2} title="Programmer" />
             </div>
           </div>

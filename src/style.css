@@ -1350,11 +1350,14 @@ BUTTON
  
 
 
+ /* Acivement start */
 
 .card{
   width: 16rem;
   height: 400px;
   margin-top: 10px;
+  border-radius: 10px;
+   
   
 
 }
@@ -1378,3 +1381,5 @@ BUTTON
 .col-md-2{
   margin-left: 69px;
 }
+
+/* Acivement end */

@@ -97,8 +97,11 @@ class About extends React.Component {
 
   render() {
     return (
-      
-      <section id="about" className="about-mf sect-pt4 route">
+      <section
+        id="about"
+         
+        className="about-mf sect-pt4 route"
+      >
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -122,8 +125,8 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {<p className="title-s">My Skills</p> }
-                      {this.state.skills.map(skill => {
+                      {<p className="title-s">My Skills</p>}
+                      {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
@@ -150,14 +153,12 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
-                      {this.state.about_me.map(content => {
+                      {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
-
-                       );
-                       
+                        );
                       })}
 
                       <div className="socials">
@@ -210,36 +211,24 @@ class About extends React.Component {
                         </ul>
                       </div>
 
-
-                     <div className='t'>
-
-                        <div className='container'>
-                          <div className='row mtn-40'>
-                            <div className='col-6 md-3 text-center'>
-                              <div className='counter-item'>
-                                <h2 className='counter-number'>
+                      <div className="t">
+                        <div className="container">
+                          <div className="row mtn-40">
+                            <div className="col-6 md-3 text-center">
+                              <div className="counter-item">
+                                <h2 className="counter-number">
                                   <div>
                                     <span>3</span>
-                                    <span className='sr-only'>+</span>
+                                    <span className="sr-only">+</span>
                                   </div>
-
-
                                 </h2>
 
                                 <h2>Happy Clients</h2>
-
                               </div>
                             </div>
-
                           </div>
-
                         </div>
-
-                     </div>
-
-
-                       
-
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ export default function Do() {
   }, []);
 
   return (
-    <section id="education1" className="portfolio-mf sect-pt4 route">
+    <section id="education1" data-aos="zoom-in-down" className="portfolio-mf sect-pt4 route">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
