@@ -19,7 +19,7 @@ class Eudcation extends React.Component {
           </div>
 
           <div className="row">
-            <div className="card11" data-aos="slide-right">
+            <div className="card11" data-aos="fade-left">
               <img
                 src={process.env.PUBLIC_URL + "/images/android.png "}
                 alt="Mypic"
@@ -33,7 +33,7 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date">1-22-22</h4>
             </div>
-            <div className="card11" data-aos="slide-up">
+            <div className="card11" data-aos="fade-right">
               <img
                 src={process.env.PUBLIC_URL + "/images/apple.png "}
                 alt="Mypic"
@@ -47,7 +47,7 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date22">1-22-22</h4>
             </div>
-            <div className="card11" data-aos="fade-down-left">
+            <div className="card11" data-aos="fade-left">
               <img
                 src={process.env.PUBLIC_URL + "/images/web.png "}
                 alt="Mypic"
@@ -62,7 +62,7 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card11" data-aos="fade-down-left">
+            <div className="card11" data-aos="fade-right">
               <img
                 src={process.env.PUBLIC_URL + "/images/end.png "}
                 alt="Mypic"
@@ -77,7 +77,7 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card11" data-aos="fade-down-left">
+            <div className="card11" data-aos="fade-left">
               <img
                 src={process.env.PUBLIC_URL + "/images/problem.png "}
                 alt="Mypic"
@@ -91,7 +91,7 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date">1-22-22</h4>
             </div>
-            <div className="card11" data-aos="fade-down-left">
+            <div className="card11" data-aos="fade-right">
               <img
                 src={process.env.PUBLIC_URL + "/images/dev.png "}
                 alt="Mypic"
