@@ -26,8 +26,8 @@ import Tea from './Test';
 import Intro from './components/intro.jsx';
 import Back from './components/back';
 import About from './components/about.jsx';
-
- import Educaton from './components/education.jsx';
+import Educaton from './components/education.jsx';
+import Exper from './components/experince';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
@@ -45,10 +45,10 @@ ReactDOM.render(
     <About />
     <Do />
     <Educaton />
+    <Exper />
     <Portfolio />
     <Tea />
-
-    <Contact />
+     <Contact />
     <BackToTop />
     <Preloader />
   </React.Fragment>,
