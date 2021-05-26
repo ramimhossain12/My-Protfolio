@@ -3,7 +3,7 @@ import React from "react";
 class Eudcation extends React.Component {
   render() {
     return (
-      <section id="exper"  className="portfolio-mf sect-pt4 route">
+      <section id="exper" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -20,11 +20,7 @@ class Eudcation extends React.Component {
 
           <div className="row">
             <div className="card11" data-aos="fade-left">
-              <img
-                src={process.env.PUBLIC_URL + "/images/android.png "}
-                alt="Mypic"
-                width="50px"
-              ></img>
+              <i class="android fa fa-android"></i>
               <h2>Android Developer</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
@@ -34,11 +30,7 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
             <div className="card11" data-aos="fade-right">
-              <img
-                src={process.env.PUBLIC_URL + "/images/apple.png "}
-                alt="Mypic"
-                width="50px"
-              ></img>
+              <i class=" apple fa fa-apple"></i>
               <h2>iOS Developer</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden

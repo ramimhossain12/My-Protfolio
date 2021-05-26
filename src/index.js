@@ -27,6 +27,7 @@ import Intro from './components/intro.jsx';
 import Back from './components/back';
 import About from './components/about.jsx';
 import Card from './components/Cards';
+import Counter from './components/counter';
 import Educaton from './components/education.jsx';
 import Exper from './components/experince';
 import Portfolio from './components/portfolio.jsx';
@@ -50,6 +51,7 @@ ReactDOM.render(
     <Portfolio />
     <Card />
     <Tea />
+    <Counter />
     <Contact />
     <BackToTop />
     <Preloader />
