@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" data-aos="zoom-in-up">
             <div className="work-box">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
@@ -119,7 +119,6 @@ class Portfolio extends React.Component {
               </a>
             </div>
 
-          
             <div className="btnpro">
               <a
                 href="https://github.com/ramimhossain12"

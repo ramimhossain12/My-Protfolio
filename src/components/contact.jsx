@@ -243,6 +243,7 @@ class Contact extends React.Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="copyright-box"></div>
+                <h5 className="footer">Made with ❤️ by Ramim Hossain</h5>
               </div>
             </div>
           </div>
