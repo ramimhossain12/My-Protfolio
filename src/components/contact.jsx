@@ -17,8 +17,10 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left1" data-aos="fade-up"> Reach Out To Me!😜😜</h5>
-                         
+                        <h5 className="title-left1" data-aos="fade-up">
+                          {" "}
+                          Reach Out To Me!😜😜
+                        </h5>
                       </div>
                       <div className="more-info1">
                         <p className="lead" data-aos="fade-up">
@@ -67,7 +69,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/ramimhossain12"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -78,7 +80,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/ramim-hossain-190ab217a/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -87,11 +89,59 @@ class Contact extends React.Component {
                               </span>
                             </a>
                           </li>
+
+                          <li>
+                            <a
+                              href="https://www.facebook.com/hartless.hirdoy/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-facebook"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href="https://twitter.com/RamimHo92163398"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href="https://www.instagram.com/ramimhossain11/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-youtube"></i>
+                              </span>
+                            </a>
+                          </li>
                         </ul>
                       </div>
                     </div>
 
-                     {/* <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <img
                         className="profile-img"
                         src={process.env.PUBLIC_URL + "/images/pro.png "}
@@ -100,23 +150,11 @@ class Contact extends React.Component {
                     </div>
  */}
 
-
-
-
-
-
-
-
-
-
-
-
-
                     <div className="col-md-6" data-aos="slide-left">
-                      <div className="title-box-2" >
+                      <div className="title-box-2">
                         <h5 className="title-left1">Send A Message</h5>
                       </div>
-                      <div  className='pro'>
+                      <div className="pro">
                         <form
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
@@ -128,7 +166,7 @@ class Contact extends React.Component {
                           <div id="errormessage"></div>
                           <div className="row">
                             <div className="col-md-12 mb-3">
-                              <div className="form-group" >
+                              <div className="form-group">
                                 <input
                                   type="text"
                                   name="name"
@@ -142,7 +180,7 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12 mb-3">
-                              <div className="form-group" >
+                              <div className="form-group">
                                 <input
                                   type="email"
                                   className="form-control"
@@ -156,7 +194,7 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12 mb-3">
-                              <div className="form-group" >
+                              <div className="form-group">
                                 <input
                                   type="text"
                                   className="form-control"
@@ -194,8 +232,6 @@ class Contact extends React.Component {
                         </form>
                       </div>
                     </div>
-
-                   
                   </div>
                 </div>
               </div>
