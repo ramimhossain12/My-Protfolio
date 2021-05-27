@@ -23,7 +23,7 @@ export default function Do() {
             <div className="title-box text-center">
               <h3 h3 className="title-a">
                 {" "}
-                What i do{" "}
+                Here's What i do{" "}
               </h3>
               <p className="subtitle-a">
                 CRAZY FULL STACK Software DEVELOPER WHO WANTS TO EXPLORE EVERY
