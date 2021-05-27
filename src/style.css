@@ -858,58 +858,39 @@ PORTFOLIO
 */
 
 .work-box {
-  margin-bottom: 3rem;
   
-  -webkit-backface-visibility: hidden;
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  height: 200px;
+  box-shadow: gray;
   backface-visibility: hidden;
-  background-color: #fff;
 }
 
-.work-box:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+
+
+.work-box:hover  {
+   
+  transform: scale(1.1);
+ 
+  color: #000;
+ 
+}
+.project{
+  font-size: 25px;
+  
 }
 
-.work-img {
-  display: block;
-  overflow: hidden;
+.prject-des{
+  font-size: 14px;
 }
 
-.work-img img {
-  transition: all 1s;
-}
+ li{
+   
+   
+ }
 
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
-
-.work-content .w-more {
-  color: #4e4e4e;
-  font-size: .8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color: #0078ff;
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color: #0078ff;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: #0078ff;
-}
-
-.work-content .w-like .num-like {
-  font-size: .7rem;
-}
-
-.w-title {
-  font-size: 1.2rem;
-}
-
+ 
 /*
 TESTIMONIALS
 */
@@ -1071,6 +1052,8 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
  }
 
  .project-counter-wrp {
+   margin-right: 44px;
+   margin-top: 3px;
   
    
  }
@@ -1426,3 +1409,5 @@ BUTTON
 
 
  
+
+
