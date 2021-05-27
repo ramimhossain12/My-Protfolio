@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 var project = setInterval(projectDone, 10);
 var clients = setInterval(happyClients, 10);
 var coffee = setInterval(cupsCoffee, 10);
@@ -51,7 +52,11 @@ function trpy2() {
 export class counter extends Component {
     render() {
         return (
-          <section id="progress" className="portfolio-mf sect-pt4 route">
+          <section
+            id="progress"
+            className="portfolio-mf sect-pt4 route"
+          >
+            <div className="overlay-mf2"></div>
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">

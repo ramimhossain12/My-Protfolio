@@ -19,19 +19,24 @@ class Eudcation extends React.Component {
           </div>
 
           <div className="row">
-            <div className="card11" data-aos="fade-left">
-              <i class="android fa fa-android"></i>
-              <h2>Android Developer</h2>
-              <p>
-                Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
-                verschwand irrt herzen.
-              </p>
-              <h4 className="date">1-22-22</h4>
+            <div className="card201" data-aos="fade-left">
+           
+                  <i class="android fa fa-android"></i>
+
+                  <h2 className="white">Android Developer</h2>
+                 
+                  <p>
+                    Schmerz ihr was wirklichkeiten beifall mein wird was stunden
+                    schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
+                    ich, verschwand irrt herzen.
+                  </p>
+                  <h4 className="date">1-22-22</h4>
+           
+         
             </div>
-            <div className="card11" data-aos="fade-right">
+            <div className="card201" data-aos="fade-right">
               <i class=" apple fa fa-apple"></i>
-              <h2>iOS Developer</h2>
+              <h2 className="white"> iOS Developer</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
                 schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
@@ -39,13 +44,13 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date22">1-22-22</h4>
             </div>
-            <div className="card11" data-aos="fade-left">
+            <div className="card201" data-aos="fade-left">
               <img
                 src={process.env.PUBLIC_URL + "/images/web.png "}
                 alt="Mypic"
                 width="50px"
               ></img>
-              <h2>Front End Developer</h2>
+              <h2 className="white">Front End Developer</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
                 schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
@@ -54,13 +59,13 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card11" data-aos="fade-right">
+            <div className="card201" data-aos="fade-right">
               <img
                 src={process.env.PUBLIC_URL + "/images/end.png "}
                 alt="Mypic"
                 width="50px"
               ></img>
-              <h2>Back End Developer</h2>
+              <h2 className="white">Back End Developer</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
                 schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
@@ -69,13 +74,13 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card11" data-aos="fade-left">
+            <div className="card201" data-aos="fade-left">
               <img
                 src={process.env.PUBLIC_URL + "/images/problem.png "}
                 alt="Mypic"
                 width="50px"
               ></img>
-              <h2>Problem Solving</h2>
+              <h2 className="white">Problem Solving</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
                 schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
@@ -83,13 +88,13 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date">1-22-22</h4>
             </div>
-            <div className="card11" data-aos="fade-right">
+            <div className="card201" data-aos="fade-right">
               <img
                 src={process.env.PUBLIC_URL + "/images/dev.png "}
                 alt="Mypic"
                 width="50px"
               ></img>
-              <h2>DevOps Engineering</h2>
+              <h2 className="white">DevOps Engineering</h2>
               <p>
                 Schmerz ihr was wirklichkeiten beifall mein wird was stunden
                 schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich ich,
