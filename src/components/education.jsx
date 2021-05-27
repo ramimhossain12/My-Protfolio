@@ -32,7 +32,7 @@ class Eudcation extends React.Component {
               <h4 className="subject">2018-2022</h4>
               <span data-aos="slide-right"></span>
               <i className="edu fa fas fa-graduation-cap"></i>
-              <li className="title">
+              <li className="title" >
                 Rajshahi New Government Degree Collage ,Rajshahi
               </li>
               <h6 className="subject"> Science </h6>

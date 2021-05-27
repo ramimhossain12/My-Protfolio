@@ -804,11 +804,12 @@ Eudcation
 .tpg span {
      width: 800px;
     
-     background: rgb(116, 188, 236);
+     background: rgb(78, 71, 100);
      height: 4px;
      display: block;
      margin-left: 33px; 
    }
+  
 
 .title{
   color: #000;
@@ -820,7 +821,7 @@ Eudcation
 
 .edu{
   font-size: 45px;
-  color: rgb(116, 188, 236);
+  color: rgb(74, 219, 159);
 }
  
 
