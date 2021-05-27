@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Card from "./CardUI";
-import img1 from "../assets/pexels-christian-heitz-842711.jpg";
-import img2 from "../assets/pexels-roberto-nickson-2559941.jpg";
+import img1 from "../assets/1st.jpg";
+import img2 from "../assets/2nd.jpg";
+import img3 from "../assets/3rd.jpg";
+import img4 from "../assets/4th.jpg";
 
 class Cards extends Component {
   constructor(props) {
@@ -23,17 +25,17 @@ class Cards extends Component {
                 <div className="line-mf"></div>
               </div>
             </div>
-            <div className="col-md-2" data-aos="slide-right">
+            <div className="col-md-3" data-aos="slide-right">
               <Card imgsrc={img1} title="iOS Developer" />
             </div>
-            <div className="col-md-2" data-aos="slide-up">
+            <div className="col-md-3" data-aos="slide-up">
               <Card imgsrc={img2} title="Android Developer" />
             </div>
-            <div className="col-md-2" data-aos="slide-down">
-              <Card imgsrc={img2} title="Programmer" />
+            <div className="col-md-3" data-aos="slide-down">
+              <Card imgsrc={img3} title="React Developer" />
             </div>
-            <div className="col-md-2" data-aos="slide-left">
-              <Card imgsrc={img2} title="Programmer" />
+            <div className="col-md-3" data-aos="slide-left">
+              <Card imgsrc={img4} title="Typing Speed" />
             </div>
           </div>
         </div>

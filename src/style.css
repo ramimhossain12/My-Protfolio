@@ -1016,6 +1016,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 }
 .card-img-top{
   transform: scale(1);
+  height: 170px;
   transition: transform 0.5s ease;
 }
 .card-img-top:hover {
@@ -1024,10 +1025,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 .overflow{
   overflow: hidden;
 }
-.col-md-2{
-  margin-left: 69px;
-}
-
+ 
 /* Acivement end */
 
 
