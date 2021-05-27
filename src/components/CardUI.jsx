@@ -4,7 +4,7 @@ import React from 'react';
 const Card = props=>{
 
     return (
-      <div className="card text-center " >
+      <div className="card text-center ">
         <div className="overflow">
           <img src={props.imgsrc} alt="Image1" className="card-img-top" />
         </div>
@@ -17,7 +17,7 @@ const Card = props=>{
 
           <a href="#" className="btn btn-outline-success">
             {" "}
-            Go AnyWhere
+            🎉Go AnyWhere
           </a>
         </div>
       </div>

@@ -31,7 +31,7 @@ class Cards extends Component {
             <div className="col-md-3" data-aos="slide-up">
               <Card imgsrc={img2} title="Android Developer" />
             </div>
-            <div className="col-md-3" data-aos="slide-down">
+            <div className="col-md-3" data-aos="slide-up">
               <Card imgsrc={img3} title="React Developer" />
             </div>
             <div className="col-md-3" data-aos="slide-left">
