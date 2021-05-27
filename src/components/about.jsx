@@ -222,7 +222,7 @@ class About extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/ramimhossain12"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -233,7 +233,7 @@ class About extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/ramim-hossain-190ab217a/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -245,7 +245,7 @@ class About extends React.Component {
 
                           <li>
                             <a
-                              href=""
+                              href="https://www.facebook.com/hartless.hirdoy/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -254,26 +254,43 @@ class About extends React.Component {
                               </span>
                             </a>
                           </li>
+
+                          <li>
+                            <a
+                              href="https://twitter.com/RamimHo92163398"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href="https://www.instagram.com/ramimhossain11/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              href=""
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-youtube"></i>
+                              </span>
+                            </a>
+                          </li>
                         </ul>
-                      </div>
-
-                      <div className="t">
-                        <div className="container">
-                          <div className="row mtn-40">
-                            <div className="col-6 md-3 text-center">
-                              <div className="counter-item">
-                                <h2 className="counter-number">
-                                  <div>
-                                    <span>3</span>
-                                    <span className="sr-only">+</span>
-                                  </div>
-                                </h2>
-
-                                <h2>Happy Clients</h2>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
