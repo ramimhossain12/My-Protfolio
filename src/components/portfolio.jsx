@@ -34,9 +34,8 @@ class Portfolio extends React.Component {
                 <h2 className="white">developerFolio</h2>
 
                 <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
@@ -49,16 +48,15 @@ class Portfolio extends React.Component {
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">developerFolio</h2>
+                <h2 className="white">Coffee order Apps</h2>
 
                 <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
-                  JavaScript-Contribution 8-Start 10
+                  Java+Kotlin-Contribution 8-Start 10
                 </li>
               </a>
             </div>
@@ -66,16 +64,15 @@ class Portfolio extends React.Component {
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">developerFolio</h2>
+                <h2 className="white">School Management System App</h2>
 
                 <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
-                  JavaScript-Contribution 8-Start 10
+                  Kotlin-Contribution 8-Start 10
                 </li>
               </a>
             </div>
@@ -83,12 +80,37 @@ class Portfolio extends React.Component {
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">developerFolio</h2>
+                <h2 className="white">University Daily Schedular Apps</h2>
 
                 <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
+                </p>
+                <li className="project-langu"> Java-Contribution 8-Start 10</li>
+              </a>
+            </div>
+            <div className="work-box">
+              <a href="https://github.com/ramimhossain12">
+                <i class="project fa fa-book"></i>
+
+                <h2 className="white">Java oop online Book App</h2>
+
+                <p className="prject-des">
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
+                </p>
+                <li className="project-langu"> Java-Contribution 3-Start 13</li>
+              </a>
+            </div>
+            <div className="work-box">
+              <a href="https://github.com/ramimhossain12">
+                <i class="project fa fa-book"></i>
+
+                <h2 className="white">Chat App</h2>
+
+                <p className="prject-des">
+                  🚀 Software Developer Portfolio Template that helps you
+                  showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
@@ -96,43 +118,17 @@ class Portfolio extends React.Component {
                 </li>
               </a>
             </div>
-            <div className="work-box">
-              <a href="https://github.com/ramimhossain12">
-                <i class="project fa fa-book"></i>
 
-                <h2 className="white">developerFolio</h2>
-
-                <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
-                </p>
-                <li className="project-langu">
-                  {" "}
-                  JavaScript-Contribution 8-Start 10
-                </li>
-              </a>
-            </div>
-            <div className="work-box">
-              <a href="https://github.com/ramimhossain12">
-                <i class="project fa fa-book"></i>
-
-                <h2 className="white">developerFolio</h2>
-
-                <p className="prject-des">
-                  Schmerz ihr was wirklichkeiten beifall mein wird was stunden
-                  schmerz schatten. Erschüttert dunst wohl gezeigt jugendlich
-                  ich, verschwand irrt herzen.
-                </p>
-                <li className="project-langu">
-                  {" "}
-                  JavaScript-Contribution 8-Start 10
-                </li>
+            <div className="btnpro">
+              <a
+                href="https://github.com/ramimhossain12"
+                className="btn btn-outline-success"
+              >
+                {" "}
+                😊 More Project
               </a>
             </div>
           </div>
-
-           
         </div>
       </section>
     );

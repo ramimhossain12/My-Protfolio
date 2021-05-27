@@ -687,9 +687,7 @@ INTRO
 }
 
 .btn2 {
-  margin-left: 10px;
-  
-  margin-top: 3px;
+ 
  
 
 
@@ -770,21 +768,13 @@ ABOUT
 
 
 .tp {
-  margin: 10px;
-  text-align: center;
-  display: inline-block;
+  margin: 6px;
   border-radius: 20px;
-  background-color: white;
-  box-shadow: 9px 9px 9px white;
+  box-shadow: 10px 10px 10px white;
   padding: 0.5em 0.6em;
 
 }
 
-
-.font {
-  font-size: 15px;
-  text-align: end;
-}
 
  .tp1{
    text-align: center;
@@ -796,7 +786,10 @@ ABOUT
    background-position: top left;
  }
 
-
+ .container1{
+   width: 25rem;
+    
+ }
 /* 
 Eudcation 
 
@@ -862,7 +855,7 @@ PORTFOLIO
   width: 360px;
   padding: 10px;
   margin: 10px;
-  height: 200px;
+  height: 250px;
   box-shadow: gray;
   backface-visibility: hidden;
 }
@@ -889,7 +882,6 @@ PORTFOLIO
    
    
  }
-
  
 /*
 TESTIMONIALS
@@ -1066,7 +1058,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
  }
 
  .project-counter-wrp li {
-   width: 30%;
+   width: 36%;
    padding: 10px 0px;
    text-align: center;
    margin-left: 4px;
@@ -1134,8 +1126,18 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 
 
 
+ .btnpro{
+   text-align: center;
+   margin-left: 20px;
+   margin-top: 33px;
+       
+   justify-items: center;
+   align-items: center;
+ }
+ .btn{
+   
 
-
+ }
 
 
 
@@ -1409,5 +1411,3 @@ BUTTON
 
 
  
-
-

@@ -16,7 +16,7 @@ export default function Do() {
   }, []);
 
   return (
-    <section id="education1" data-aos="zoom-in-down" className="portfolio-mf sect-pt4 route">
+    <section id="education1" className="portfolio-mf sect-pt4 route">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
@@ -26,21 +26,19 @@ export default function Do() {
                 What i do{" "}
               </h3>
               <p className="subtitle-a">
-                 CRAZY FULL STACK Software DEVELOPER WHO WANTS TO EXPLORE EVERY
-                 TECH STACK
+                CRAZY FULL STACK Software DEVELOPER WHO WANTS TO EXPLORE EVERY
+                TECH STACK
               </p>
               <div className="line-mf"></div>
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="container1">
-            <div className="container1" ref={container}>
-              {" "}
-            </div>
+        <div className="row" data-aos="zoom-in-down">
+          <div className="container1" ref={container}>
+            {" "}
           </div>
-          <div className="tp1">
 
+          <div className="tp1">
             <img
               className="tp"
               src={process.env.PUBLIC_URL + "/images/java.png "}

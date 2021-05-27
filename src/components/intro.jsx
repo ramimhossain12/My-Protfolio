@@ -36,15 +36,15 @@ class Intro extends React.Component {
               </p>
               <p className="pt-3" data-aos="flip-down">
                 <a
-                  className="btn btn-danger btn js-scroll px-4"
+                  className="btn btn-primary btn js-scroll px-4"
                   href="#work"
                   role="button"
                 >
                   🎉 View My Work
                 </a>
                 <a
-                  className=" btn btn-outline-warning ml-2 js-scroll px-4"
-                  href="https://drive.google.com/file/d/1RVWJ2Tlg7tN2FSK5LPJGeF_yDC-IlfSV/view?usp=sharing"
+                  className=" btn btn-outline-danger ml-2 js-scroll px-4"
+                  href=""
                   role="button"
                 >
                   👍 See My Resume
