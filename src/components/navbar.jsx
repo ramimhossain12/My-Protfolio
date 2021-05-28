@@ -109,7 +109,7 @@ class Navbar extends React.Component {
           <div
             className="navbar-collapse collapse justify-content-end"
             id="navbarDefault"
-            data-aos="fade-up-right"
+             
           >
             <ul className="navbar-nav">
               <li className="nav-item">

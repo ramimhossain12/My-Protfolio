@@ -17,13 +17,10 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left1" data-aos="fade-up">
-                          {" "}
-                          Reach Out To Me!😜😜
-                        </h5>
+                        <h5 className="title-left1"> Reach Out To Me!😜😜</h5>
                       </div>
                       <div className="more-info1">
-                        <p className="lead" data-aos="fade-up">
+                        <p className="lead">
                           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS
                           OPEN FOR ALL
                           <br />
@@ -38,7 +35,7 @@ class Contact extends React.Component {
                           Simply fill the from and send me an email.
                         </p>
                         {
-                          <ul class="list-ico" data-aos="fade-up">
+                          <ul class="list-ico">
                             <li>
                               <span class="ion-ios-location"></span> Dhanmondi
                               27 sukrabad 1209 , Dhaka Bangladesh
@@ -54,11 +51,11 @@ class Contact extends React.Component {
                           </ul>
                         }
                       </div>
-                      <div className="socials1" data-aos="fade-up">
+                      <div className="socials1">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/ramimhossain12"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -126,9 +123,9 @@ class Contact extends React.Component {
                             </a>
                           </li>
 
-                          <li>
+                          <li className="icon">
                             <a
-                              href=""
+                              href="https://www.youtube.com/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,16 +138,7 @@ class Contact extends React.Component {
                       </div>
                     </div>
 
-                    {/* <div className="col-md-6">
-                      <img
-                        className="profile-img"
-                        src={process.env.PUBLIC_URL + "/images/pro.png "}
-                      
-                      ></img>
-                    </div>
- */}
-
-                    <div className="col-md-6" data-aos="slide-left">
+                    <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left1">Send A Message</h5>
                       </div>

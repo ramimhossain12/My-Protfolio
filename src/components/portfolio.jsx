@@ -1,13 +1,7 @@
 import React from "react";
 
 
-//import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+ 
 
 class Portfolio extends React.Component {
   render() {
@@ -26,7 +20,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-          <div className="row" data-aos="zoom-in-up">
+          <div className="row">
             <div className="work-box">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
@@ -38,8 +32,7 @@ class Portfolio extends React.Component {
                   showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
-                  {" "}
-                  JavaScript-Contribution 8-Start 10
+                  {"  JavaScript-Contribution 8-Start 10"}
                 </li>
               </a>
             </div>
@@ -55,8 +48,7 @@ class Portfolio extends React.Component {
                   showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
-                  {" "}
-                  Java+Kotlin-Contribution 8-Start 10
+                  {"  Java+Kotlin-Contribution 8-Start 10"}
                 </li>
               </a>
             </div>
@@ -71,8 +63,7 @@ class Portfolio extends React.Component {
                   showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
-                  {" "}
-                  Kotlin-Contribution 8-Start 10
+                  {" Kotlin-Contribution 8-Start 10 "}
                 </li>
               </a>
             </div>
@@ -86,7 +77,10 @@ class Portfolio extends React.Component {
                   🚀 Software Developer Portfolio Template that helps you
                   showcase your work and skills as a software developer...
                 </p>
-                <li className="project-langu"> Java-Contribution 8-Start 10</li>
+                <li className="project-langu">
+                  {" "}
+                  {"Java-Contribution 8-Start 10"}
+                </li>
               </a>
             </div>
             <div className="work-box">
@@ -99,7 +93,10 @@ class Portfolio extends React.Component {
                   🚀 Software Developer Portfolio Template that helps you
                   showcase your work and skills as a software developer...
                 </p>
-                <li className="project-langu"> Java-Contribution 3-Start 13</li>
+                <li className="project-langu">
+                  {" "}
+                  {"Java-Contribution 3-Start 13"}
+                </li>
               </a>
             </div>
             <div className="work-box">
@@ -113,8 +110,7 @@ class Portfolio extends React.Component {
                   showcase your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
-                  {" "}
-                  JavaScript-Contribution 8-Start 10
+                  {" JavaScript-Contribution 8-Start 10"}
                 </li>
               </a>
             </div>

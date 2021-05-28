@@ -19,7 +19,7 @@ class Eudcation extends React.Component {
           </div>
 
           <div className="row">
-            <div className="card201" data-aos="fade-left">
+            <div className="card201" >
            
                   <i class="android fa fa-android"></i>
 
@@ -34,7 +34,7 @@ class Eudcation extends React.Component {
            
          
             </div>
-            <div className="card201" data-aos="fade-right">
+            <div className="card201" >
               <i class=" apple fa fa-apple"></i>
               <h2 className="white"> iOS Developer</h2>
               <p>
@@ -44,7 +44,7 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date22">1-22-22</h4>
             </div>
-            <div className="card201" data-aos="fade-left">
+            <div className="card201" >
               <img
                 src={process.env.PUBLIC_URL + "/images/web.png "}
                 alt="Mypic"
@@ -59,7 +59,7 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card201" data-aos="fade-right">
+            <div className="card201" >
               <img
                 src={process.env.PUBLIC_URL + "/images/end.png "}
                 alt="Mypic"
@@ -74,7 +74,7 @@ class Eudcation extends React.Component {
               <h4 className="date">1-22-22</h4>
             </div>
 
-            <div className="card201" data-aos="fade-left">
+            <div className="card201" >
               <img
                 src={process.env.PUBLIC_URL + "/images/problem.png "}
                 alt="Mypic"
@@ -88,7 +88,7 @@ class Eudcation extends React.Component {
               </p>
               <h4 className="date">1-22-22</h4>
             </div>
-            <div className="card201" data-aos="fade-right">
+            <div className="card201" >
               <img
                 src={process.env.PUBLIC_URL + "/images/dev.png "}
                 alt="Mypic"

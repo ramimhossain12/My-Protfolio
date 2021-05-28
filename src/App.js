@@ -33,7 +33,7 @@ export default function Do() {
             </div>
           </div>
         </div>
-        <div className="row" data-aos="zoom-in-down">
+        <div className="row" >
           <div className="container1" ref={container}>
             {" "}
           </div>

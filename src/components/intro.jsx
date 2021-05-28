@@ -14,8 +14,8 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title  mb-4" data-aos="slide-right">
-                Hello, I'm Ramim Hossain👋
+              <h1 className="intro-title  mb-4"  >
+                Hello, I'm Ramim Hossain<span className="img">👋</span>
               </h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
@@ -34,20 +34,20 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3" data-aos="flip-down">
+              <p className="pt-3" >
                 <a
                   className="btn btn-primary btn js-scroll px-4"
                   href="#work"
                   role="button"
                 >
-                  🎉 View My Work
+                  <span>🎉</span>View My Work
                 </a>
                 <a
                   className=" btn btn-outline-danger ml-2 js-scroll px-4"
                   href=""
                   role="button"
                 >
-                  👍 See My Resume
+                  <span>👍</span>See My Resume
                 </a>
               </p>
             </div>

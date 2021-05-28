@@ -1,6 +1,5 @@
- 
-import myImage from "../img/myImage.png";
-import React, { Component } from "react";
+
+import React from "react";
 
 var project = setInterval(projectDone, 10);
 var clients = setInterval(happyClients, 10);
@@ -15,7 +14,7 @@ let count4 = 1;
 function projectDone() {
   count1++;
   document.querySelector("#number1").innerHTML = count1;
-  if (count1 == 50) {
+  if (count1 === 50) {
     clearInterval(project);
   }
 }
@@ -23,7 +22,7 @@ function projectDone() {
 function happyClients() {
   count2++;
   document.querySelector("#number2").innerHTML = count2;
-  if (count2 == 89) {
+  if (count2 === 89) {
     clearInterval(clients);
   }
 }
@@ -31,14 +30,14 @@ function happyClients() {
 function cupsCoffee() {
   count3++;
   document.querySelector("#number3").innerHTML = count3;
-  if (count3 == 359) {
+  if (count3 === 359) {
     clearInterval(coffee);
   }
 }
 function trpy2() {
   count4++;
   document.querySelector("#number4").innerHTML = count4;
-  if (count4 == 20) {
+  if (count4 ===20) {
     clearInterval(tropy);
   }
 }
@@ -211,7 +210,7 @@ class About extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="#home"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -279,9 +278,9 @@ class About extends React.Component {
                             </a>
                           </li>
 
-                          <li>
+                          <li className="icon">
                             <a
-                              href=""
+                              href="#home"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -298,7 +297,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          <div class="project-counter-wrp">
+          <div class="  project-counter-wrp">
             <ul>
               <li>
                 <i class="fa fa-briefcase"></i>

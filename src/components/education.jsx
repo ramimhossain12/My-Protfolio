@@ -30,7 +30,7 @@ class Eudcation extends React.Component {
                 verschwand irrt herzen.
               </p>
               <h4 className="subject">2018-2022</h4>
-              <span data-aos="slide-right"></span>
+              <span ></span>
               <i className="edu fa fas fa-graduation-cap"></i>
               <li className="title" >
                 Rajshahi New Government Degree Collage ,Rajshahi
@@ -44,7 +44,7 @@ class Eudcation extends React.Component {
                 verschwand irrt herzen.
               </p>
               <h4 className="subject">2016-2017</h4>
-              <span data-aos="slide-right"></span>
+              <span ></span>
               <i className="edu fa fas fa-graduation-cap"></i>
               <li className="title">Bagatipara Pilot High School ,Natore</li>
               <h6 className="subject"> Science </h6>
@@ -56,7 +56,7 @@ class Eudcation extends React.Component {
                 verschwand irrt herzen.
               </p>
               <h4 className="subject">2014-2015</h4>
-              <span data-aos="slide-right"></span>
+              <span ></span>
             </div>
           </div>
         </div>

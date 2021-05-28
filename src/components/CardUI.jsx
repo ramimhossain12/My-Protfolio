@@ -15,10 +15,10 @@ const Card = props=>{
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
           </p>
 
-          <a href="#" className="btn btn-outline-success">
+          <button className="btn btn-outline-success">
             {" "}
-            🎉Go AnyWhere
-          </a>
+            Go AnyWhere
+          </button>
         </div>
       </div>
     );

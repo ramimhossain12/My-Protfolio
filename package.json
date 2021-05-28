@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramimhossain12.github.io/My-Protfolio/",
+  "homepage": "https://ramimhossain.com/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.14",
     "aos": "^2.3.4",
