@@ -299,7 +299,7 @@ class About extends React.Component {
           </div>
           <div class="  project-counter-wrp">
             <ul>
-              <li>
+              <li className="con">
                 <i class="fa fa-briefcase"></i>
                 <p id="number1" class="number">
                   50
@@ -307,7 +307,7 @@ class About extends React.Component {
                 <span></span>
                 <p>Projects Done</p>
               </li>
-              <li>
+              <li className="con">
                 <i class="fa fa-smile-o"></i>
                 <p id="number2" class="number">
                   89
@@ -315,7 +315,7 @@ class About extends React.Component {
                 <span></span>
                 <p>Happy Clients</p>
               </li>
-              <li>
+              <li className="con">
                 <i class="fa fa-coffee"></i>
                 <p id="number3" class="number">
                   359
@@ -323,7 +323,7 @@ class About extends React.Component {
                 <span></span>
                 <p>Cups of Coffee</p>
               </li>
-              <li>
+              <li className="con">
                 <i class="fa fa-trophy"></i>
                 <p id="number4" class="number">
                   20
