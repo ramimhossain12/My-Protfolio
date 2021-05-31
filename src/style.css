@@ -369,6 +369,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
+ 
   z-index: 9999;
   overflow: hidden;
   background: #fff;
@@ -710,17 +711,20 @@ ABOUT
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+ 
 }
 
 .box-shadow-full {
   background-image: url(./img/bio-bg.png);
   background-repeat: no-repeat;
+  
   background-position: bottom right;
 
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  
 }
 
 .about-mf .about-img img {
@@ -748,6 +752,7 @@ ABOUT
 
  #about {
   background: url(./img/t.png);
+ 
    animation: zoomIn 1.4s ease  ;
    background-repeat:no-repeat;
 
@@ -808,7 +813,7 @@ Eudcation
 .tpg span {
      width: 800px;
     
-     background: rgb(78, 71, 100);
+     background: rgb(35, 14, 92);
      height: 3px;
      display: block;
     
@@ -817,7 +822,7 @@ Eudcation
   
 
 .title{
-  color: #000;
+  color:rgb(35, 14, 92);
   font-size: 25px;
   font-weight: 400px;
     animation: slideInLeft 1.4s ease;
@@ -827,7 +832,7 @@ Eudcation
 
 .edu{
   font-size: 45px;
-  color: rgb(74, 219, 159);
+  color: rgb(35, 14, 92);
 }
  
 
@@ -1009,8 +1014,8 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 
 
  /* Acivement start */
- 
- 
+  
+     
 .card:hover{
   box-shadow: 5px 10px 20px 1px grey;
 
@@ -1059,7 +1064,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 
  .project-counter-wrp {
    margin-right: 44px;
-   margin-top: 3px;
+   margin-top: 30px;
   
    
  }
@@ -1135,7 +1140,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
  }
 
 
-/* counter */
+/* counter end */
 
 
 
@@ -1168,25 +1173,36 @@ CONTACT
 }
 .col-md-6 {
   animation: slideInUp 1.4s ease;
+   
  
 }
-
+.more-info1{
+  color: orange;
+}
+ 
 /*
 FOOTER
 */
 
 .footer{
-  color: black;
+  color: white;
   text-align: center;
-  
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.4rem;
   
 }
+.tt {
+  background: rgb(30, 36, 44);
+ 
+
+}
+ 
 
 
 /*
 CONTACT 
 */
+
 
 #sendmessage {
   color: #0078ff;
@@ -1297,14 +1313,15 @@ BUTTON
 
 .button:hover {
   color: #000;
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+ background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
   transition: all 500ms ease;
 }
 
 .button-a {
   background-color: #0078ff;
   color: #fff;
-  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+ 
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
   border-color: #cde1f8;
 
 }
@@ -1517,6 +1534,16 @@ BUTTON
 
     }
   }
+
+    @media (max-width: 768px) {
+      .title-left1 {
+        font-size: 3rem;
+
+
+
+      }
+    }
+  
 
 
    /* about for mobile Device */

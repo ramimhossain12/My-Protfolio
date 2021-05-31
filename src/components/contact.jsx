@@ -1,12 +1,12 @@
 import React from "react";
-import imageOverlay from "../img/contact.jpg";
+// import imageOverlay from "../img/contact.jpg";
 
 class Contact extends React.Component {
   render() {
     return (
       <section
         className=" tt paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        // style={{ backgroundImage: "url(" + imageOverlay + ")" }}
       >
         <div className="overlay-mf1"></div>
         <div className="container">
@@ -29,7 +29,7 @@ class Contact extends React.Component {
                           Source Contributor 🔥 | Algorithms Expert🔥 |
                           Researcher🔰 | Problem Solver | Tech Writer ✍️ Whether
                           you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          collaboration, or just say Hi, I'd love to hear from
                           you.
                           <br />
                           Simply fill the from and send me an email.
@@ -143,7 +143,7 @@ class Contact extends React.Component {
                         <h5 className="title-left1">Send A Message</h5>
                       </div>
                       <div className="pro">
-                        <form
+                        <form 
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
                           className="contactForm"
