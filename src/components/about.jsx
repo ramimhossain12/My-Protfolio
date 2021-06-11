@@ -55,94 +55,110 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "Java_skill", content: "JAVA STACK", porcentage: "95%", value: "80" },
-        { id: "Kotlin_skill", content: "KOTLIN STACK", porcentage: "85%", value: "80" },
-        { id: "Dart_skill", content: "DART STACK", porcentage: "90%", value: "80" },
+        {
+          id: "Java_skill",
+          content: "JAVA STACK",
+          porcentage: "95%",
+          value: "80",
+        },
+        {
+          id: "Kotlin_skill",
+          content: "KOTLIN STACK",
+          porcentage: "85%",
+          value: "80",
+        },
+        {
+          id: "Dart_skill",
+          content: "DART STACK",
+          porcentage: "90%",
+          value: "80",
+        },
 
-
-
-
-
-
-        
         {
           id: "JavaScript_skill",
           content: "JAVA SCRIPT STACK",
           porcentage: "90%",
-          value: "90"
+          value: "90",
         },
-        { id: "PHP_skill", content: "PHP STACK", porcentage: "70%", value: "70" },
-         
+        {
+          id: "PHP_skill",
+          content: "PHP STACK",
+          porcentage: "70%",
+          value: "70",
+        },
+
         {
           id: "Python_skill",
           content: "PYTHON STACK",
           porcentage: "75%",
-          value: "75"
+          value: "75",
         },
         {
           id: "Android_skill",
           content: "NATIVE ANDROID DEVELOPMENT",
           porcentage: "95%",
-          value: "75"
+          value: "75",
         },
         {
           id: "ios_skill",
           content: "NATIVE iOS DEVELOPMENT",
           porcentage: "75%",
-          value: "75"
+          value: "75",
         },
         {
           id: "Cross_skill",
           content: "CROSS PLATFORM MOBILE APPS",
           porcentage: "85%",
-          value: "75"
+          value: "75",
         },
         {
           id: "Database_skill",
           content: "DATABASE DESIGN & ADMINISTRATIO",
           porcentage: "85%",
-          value: "75"
+          value: "75",
         },
         {
           id: "DEVOPS_skill",
           content: "DEVOPS",
           porcentage: "80%",
-          value: "75"
+          value: "75",
         },
-
 
         {
           id: "Front_skill",
           content: "FRONT END DEVELOPER",
           porcentage: "85%",
-          value: "75"
+          value: "75",
         },
 
         {
           id: "Back_skill",
           content: "BACK END DEVELOPER",
           porcentage: "90%",
-          value: "75"
+          value: "75",
         },
-
-
-
-
-
-        
-        
       ],
+
+       
       about_me: [
         {
           id: "first-p-about",
           content:
-             "I am passionate Software Engineer/ Developer 🚀 having an experience of building Game and Mobile applications with Unity/ Android / iOS / React Native /Flutter and some other cool libraries and frameworks.I got the raw software development related skill to shift myself in any gear.I am a passionate tech lover & problem solver always ready to face new challenges.🔰"
+            "I am passionate Software Engineer/ Developer 🚀 having an experience of building Game and Mobile applications with Unity/ Android / iOS / React Native /Flutter and some other cool libraries and frameworks.I got the raw software development related skill to shift myself in any gear.I am a passionate tech lover & problem solver always ready to face new challenges.🔰",
         },
-         
-        
-      ]
+      ],
     };
   }
+
+
+
+
+
+  // ----------------------------------------------------------
+
+  
+
+  
 
   render() {
     return (
@@ -192,8 +208,12 @@ class About extends React.Component {
                         );
                       })}
                     </div>
+
+                    
                   </div>
                   <div className="col-md-6">
+
+                    
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
@@ -206,7 +226,9 @@ class About extends React.Component {
                         );
                       })}
 
-                      <div className="socials">
+                      
+
+                      <div className="socials1">
                         <ul>
                           <li>
                             <a
@@ -291,6 +313,8 @@ class About extends React.Component {
                           </li>
                         </ul>
                       </div>
+
+                      
                     </div>
                   </div>
                 </div>

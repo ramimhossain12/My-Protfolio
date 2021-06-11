@@ -21,11 +21,11 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="work-box">
+            <div className="work-box13">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">developerFolio</h2>
+                <h2 className="white1">developerFolio</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you
@@ -37,11 +37,11 @@ class Portfolio extends React.Component {
               </a>
             </div>
 
-            <div className="work-box">
+            <div className="work-box1">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">Coffee order Apps</h2>
+                <h2 className="white1">Coffee order Apps</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you
@@ -52,11 +52,11 @@ class Portfolio extends React.Component {
                 </li>
               </a>
             </div>
-            <div className="work-box">
+            <div className="work-box2">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">School Management System App</h2>
+                <h2 className="white1">School Management System App</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you
@@ -67,11 +67,11 @@ class Portfolio extends React.Component {
                 </li>
               </a>
             </div>
-            <div className="work-box">
+            <div className="work-box3">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">University Daily Schedular Apps</h2>
+                <h2 className="white1">University Daily Schedular Apps</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you
@@ -83,11 +83,11 @@ class Portfolio extends React.Component {
                 </li>
               </a>
             </div>
-            <div className="work-box">
+            <div className="work-box4">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">Java oop online Book App</h2>
+                <h2 className="white1">Java oop online Book App</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you
@@ -99,11 +99,11 @@ class Portfolio extends React.Component {
                 </li>
               </a>
             </div>
-            <div className="work-box">
+            <div className="work-box5">
               <a href="https://github.com/ramimhossain12">
                 <i class="project fa fa-book"></i>
 
-                <h2 className="white">Chat App</h2>
+                <h2 className="white1">Chat App</h2>
 
                 <p className="prject-des">
                   🚀 Software Developer Portfolio Template that helps you

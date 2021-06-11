@@ -20,7 +20,7 @@ class Contact extends React.Component {
                         <h5 className="title-left1"> Reach Out To Me!😜😜</h5>
                       </div>
                       <div className="more-info1">
-                        <p className="lead">
+                        <p className="com">
                           DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS
                           OPEN FOR ALL
                           <br />

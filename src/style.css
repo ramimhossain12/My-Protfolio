@@ -4,10 +4,10 @@ GENERAL STYLING
 
  
 body {
-  background-color: #f5f5f5 !important;
-  color: #4e4e4e !important;
+  background-color: #0c161f !important;
+  color: white !important;
  
-   
+   /* 101e29 */
   
 
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: white;
 }
 
 a {
@@ -710,21 +710,24 @@ ABOUT
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
+
   padding-bottom: 4rem;
  
 }
-
+.lead{
+  color: white;
+}
 .box-shadow-full {
-  background-image: url(./img/bio-bg.png);
-  background-repeat: no-repeat;
   
+  
+ 
   background-position: bottom right;
 
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
-  
+     
 }
 
 .about-mf .about-img img {
@@ -732,11 +735,12 @@ ABOUT
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+ 
+   
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #464343;
   margin: .3rem 0 1.2rem 0;
   border-radius: 0;
   height: .6rem;
@@ -747,7 +751,7 @@ ABOUT
 .skill-mf .progress .progress-bar {
   height: .6rem;
 
-  background-color: black;
+  
 }
 
  #about {
@@ -769,6 +773,7 @@ ABOUT
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
+  color: white;
 }
 
 
@@ -778,7 +783,7 @@ ABOUT
 .tp {
   margin: 6px;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px white;
+  
   padding: 0.5em 0.6em;
 
 }
@@ -813,7 +818,7 @@ Eudcation
 .tpg span {
      width: 800px;
     
-     background: rgb(35, 14, 92);
+     background: rgb(51, 161, 29);
      height: 3px;
      display: block;
     
@@ -822,7 +827,7 @@ Eudcation
   
 
 .title{
-  color:rgb(35, 14, 92);
+  color: rgb(51, 161, 29);
   font-size: 25px;
   font-weight: 400px;
     animation: slideInLeft 1.4s ease;
@@ -832,7 +837,7 @@ Eudcation
 
 .edu{
   font-size: 45px;
-  color: rgb(35, 14, 92);
+   
 }
  
 
@@ -863,16 +868,76 @@ Eudcation
 PORTFOLIO
 */
 
-.work-box {
+.work-box13 {
   
   width: 360px;
   padding: 10px;
   margin: 10px;
+  background-color: orange;
   height: 250px;
   animation: slideInLeft 1.4s ease;
   box-shadow: gray;
   backface-visibility: hidden;
 }
+
+.work-box1 {
+
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(245, 89, 33);
+  height: 250px;
+  animation: slideInLeft 1.4s ease;
+  box-shadow: gray;
+  backface-visibility: hidden;
+}
+
+.work-box2 {
+
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(129, 129, 255);
+  height: 250px;
+  animation: slideInLeft 1.4s ease;
+  box-shadow: gray;
+  backface-visibility: hidden;
+}
+.work-box3 {
+
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(241, 83, 109);
+  height: 250px;
+  animation: slideInLeft 1.4s ease;
+  box-shadow: gray;
+  backface-visibility: hidden;
+}
+
+.work-box4 {
+
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(59, 185, 69);
+  height: 250px;
+  animation: slideInLeft 1.4s ease;
+  box-shadow: gray;
+  backface-visibility: hidden;
+}
+.work-box5 {
+
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #3396FF;
+  height: 250px;
+  animation: slideInLeft 1.4s ease;
+  box-shadow: gray;
+  backface-visibility: hidden;
+}
+
 
 
 
@@ -883,21 +948,63 @@ PORTFOLIO
   color: #000;
  
 }
+.work-box1:hover {
+
+  transform: scale(1.1);
+
+  color: #000;
+
+}
+.work-box2:hover {
+
+  transform: scale(1.1);
+
+  color: #000;
+
+}
+.work-box3:hover {
+
+  transform: scale(1.1);
+
+  color: #000;
+
+}
+.work-box4:hover {
+
+  transform: scale(1.1);
+
+  color: #000;
+
+}
+.work-box5:hover {
+
+  transform: scale(1.1);
+
+  color: #000;
+
+}
+
+
 .project{
   font-size: 25px;
+    color: #000;
   
 }
 
 .prject-des{
   font-size: 14px;
+  color: #000;
 }
 
 
  .btnpro{
    width: 1100px;
    animation: jackInTheBox 1.4s ease;
+     color: #000;
  }
- 
+ .project-langu{
+   color: #000;
+ }
 /*
 TESTIMONIALS
 */
@@ -980,7 +1087,7 @@ TESTIMONIALS
 .card201{
   width: 366px;
   
- 
+   
   text-align: center;
    margin: 4px;
      
@@ -992,7 +1099,7 @@ TESTIMONIALS
  
 
 .white{
-  color: black;
+  color:  rgb(35, 173, 127)
 }
 
  
@@ -1004,13 +1111,13 @@ TESTIMONIALS
   
      
 .card:hover{
-  box-shadow: 5px 10px 20px 1px grey;
+  box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
 
 }
  
 .card-img-top{
   transform: scale(1);
-  height: 170px;
+  height: 180px;
   transition: transform 0.5s ease;
 }
 .card-img-top:hover {
@@ -1079,19 +1186,22 @@ TESTIMONIALS
  }
 
  .project-counter-wrp li:nth-child(1) {
-   
-   background: rgb(18, 31, 46);
+     
+   box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
  }
 
  .project-counter-wrp li:nth-child(2) {
-  background: rgb(18, 31, 46);
+ 
+  box-shadow: 5px 10px 20px 1px rgb(63, 82, 146);
  }
 
  .project-counter-wrp li:nth-child(3) {
-  background: rgb(18, 31, 46);
+ 
+  box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
  }
  .project-counter-wrp li:nth-child(4) {
-  background: rgb(18, 31, 46);
+  
+  box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
  }
 
  .project-counter-wrp li p.number {
@@ -1164,7 +1274,7 @@ CONTACT
  
 }
 .more-info1{
-  color:  black
+  color:  rgb(255, 255, 255)
 }
  
 /*
@@ -1172,16 +1282,20 @@ FOOTER
 */
 
 .footer{
-  color: rgb(0, 0, 0);
+  color: #cfc9c9;
   text-align: center;
   font-size: 1.3rem;
-  margin-bottom: 1.4rem;
+  margin-top: 11px;
+ 
   
 }
-.tt {
-background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
-}
  
+ 
+
+/* .tt {
+background-image: linear-gradient(to right, #F7971E 0%, #FFD200 100%);
+}
+  */
 
 
 /*
@@ -1272,6 +1386,20 @@ background-color: white;
 }
 
 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 BUTTON
 */
@@ -1298,19 +1426,18 @@ BUTTON
 
 .button:hover {
   color: rgb(255, 255, 255);
-    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+     background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   background-blend-mode: multiply;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
-  color: #fff;
- background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%),
- linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
- background-blend-mode: multiply;
-   
-  border-color: #cde1f8;
+  background-color: gold;
+  
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: rgb(0, 0, 0);
+background-blend-mode: multiply;
+border-color: #cde1f8;
 
 }
 
@@ -1484,7 +1611,7 @@ BUTTON
 .tpg span {
   width: 350px;
 
-  background: rgb(78, 71, 100);
+  background: rgb(51, 161, 29);
   height: 3px;
   display: block;
   margin-left: 33px;
@@ -1556,11 +1683,28 @@ BUTTON
      .project-counter-wrp {
        width: 400px;
        margin-right: 44px;
-      
+     
      }
    }
+
+ @media (max-width: 768px) {
+
+   .title-s{
+     
+    color: white;
+     text-align: center;
+   }
+ }
+
+ 
+ 
+
+
+
+
+
    /* What I Do  for mobile Device */
-   @media (max-width: 768px) {
+   @media(max-width: 768px) {
      .card34 {
       
        margin-left: 30px;
@@ -1590,29 +1734,29 @@ BUTTON
 
    @media (max-width: 768px) {
      .cl1 {
-       width: 350px;
-
+       width: 400px;
+         
        text-align: center;
      }
    }
 
    @media (max-width: 768px) {
      .cl2 {
-       width: 350px;
+       width: 400px;
        text-align: center;
      }
    }
 
    @media (max-width: 768px) {
      .cl3 {
-       width: 350px;
+     width: 400px;
        text-align: center;
      }
    }
 
    @media (max-width: 768px) {
      .cl4 {
-       width: 350px;
+    width: 400px;
        text-align: center;
      }
    }
@@ -1620,4 +1764,3 @@ BUTTON
  
 /*   
   ------------------------------------------------- */
-
