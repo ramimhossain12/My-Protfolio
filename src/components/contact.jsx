@@ -19,7 +19,13 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left1"  > Reach Out To Me!😜😜</h5>
+                        <h5 className="title-left1">
+                          {" "}
+                          Reach Out To Me!{" "}
+                          <span role="img" aria-label="Panda">
+                            😜😜
+                          </span>
+                        </h5>
                       </div>
                       <div className="more-info1">
                         <p className="com">
@@ -145,7 +151,7 @@ class Contact extends React.Component {
                         <h5 className="title-left1">Send A Message</h5>
                       </div>
                       <div className="pro">
-                        <form 
+                        <form
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
                           className="contactForm"
@@ -233,7 +239,13 @@ class Contact extends React.Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="copyright-box"></div>
-                <h5 className="footer">Made with ❤️ by Ramim Hossain</h5>
+                <h5 className="footer">
+                  Made with{" "}
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  by Ramim Hossain
+                </h5>
               </div>
             </div>
           </div>

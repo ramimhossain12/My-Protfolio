@@ -33,7 +33,7 @@ export default function Do() {
             </div>
           </div>
         </div>
-        <div className="row" >
+        <div className="row">
           <div className="container1" ref={container}>
             {" "}
           </div>
@@ -189,15 +189,23 @@ export default function Do() {
           </div>
           <div className="card34">
             <p>
-              ⚡ Develop highly interactive Front end / User Interfaces for your
+              <span role="img" aria-label="Panda">
+                ⚡
+              </span>
+              Develop highly interactive Front end / User Interfaces for your
               web and mobile applications
             </p>
             <p>
-              ⚡ Progressive Andorid Applications ( PWA ) in normal and SPA
-              Stacks
+              <span role="img" aria-label="Panda">
+                ⚡
+              </span>
+              Progressive Andorid Applications ( PWA ) in normal and SPA Stacks
             </p>
             <p>
-              ⚡ Integration of third party services such as Firebase/ AWS /
+              <span role="img" aria-label="Panda">
+                ⚡
+              </span>
+              Integration of third party services such as Firebase/ AWS /
               Digital Ocean
             </p>
           </div>

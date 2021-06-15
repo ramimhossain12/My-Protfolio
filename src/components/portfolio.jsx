@@ -28,8 +28,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">developerFolio</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>{" "}
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {"  JavaScript-Contribution 8-Start 10"}
@@ -44,8 +47,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">Coffee order Apps</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {"  Java+Kotlin-Contribution 8-Start 10"}
@@ -59,8 +65,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">School Management System App</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" Kotlin-Contribution 8-Start 10 "}
@@ -74,8 +83,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">University Daily Schedular Apps</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
@@ -90,8 +102,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">Java oop online Book App</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" "}
@@ -106,8 +121,11 @@ class Portfolio extends React.Component {
                 <h2 className="white1">Chat App</h2>
 
                 <p className="prject-des">
-                  🚀 Software Developer Portfolio Template that helps you
-                  showcase your work and skills as a software developer...
+                  <span role="img" aria-label="Panda">
+                    ❤️
+                  </span>
+                  Software Developer Portfolio Template that helps you showcase
+                  your work and skills as a software developer...
                 </p>
                 <li className="project-langu">
                   {" JavaScript-Contribution 8-Start 10"}
@@ -118,7 +136,7 @@ class Portfolio extends React.Component {
             <div className="btnpro">
               <a
                 href="https://github.com/ramimhossain12"
-                className="btn btn-outline-danger"
+                className="btn   btn-outline-warning"
               >
                 {" "}
                 😊 More Project

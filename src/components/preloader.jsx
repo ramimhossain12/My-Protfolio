@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
  
  
 
@@ -9,7 +9,7 @@ class Preloader extends React.Component {
     $(window).on("load", function () {
       if ($("#preloader").length) {
         $("#preloader")
-          .delay(100)
+          .delay(50)
           .fadeOut("slow", function () {
             $(this).remove();
           });

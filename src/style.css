@@ -1682,7 +1682,7 @@ border-color: #cde1f8;
 
  /* Eucation Degain  mobile*/
  @media (max-width: 768px) {
-   .tpg,.title,.subject {
+   .tpg,.subject {
      bottom: 15px;
      margin-left: 22px;
      font-size: 15px;
@@ -1691,13 +1691,27 @@ border-color: #cde1f8;
 
    }
  }
+
+  @media (max-width: 768px) {
+
+
+    .title
+     {
+       
+      margin-left: 22px;
+      font-size: 19px;
+      font-style: bold;
+
+
+    }
+  }
  @media (max-width: 768px){
 
   
 .tpg span {
   width: 350px;
 
-  background: rgb(51, 161, 29);
+  background: rgb(152, 161, 29);
   height: 3px;
   display: block;
   margin-left: 33px;
