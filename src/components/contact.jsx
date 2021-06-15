@@ -1,8 +1,10 @@
 import React from "react";
 // import imageOverlay from "../img/contact.jpg";
+ 
 
 class Contact extends React.Component {
   render() {
+ 
     return (
       <section
         className=" tt paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -17,7 +19,7 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left1"> Reach Out To Me!😜😜</h5>
+                        <h5 className="title-left1"  > Reach Out To Me!😜😜</h5>
                       </div>
                       <div className="more-info1">
                         <p className="com">

@@ -1,5 +1,5 @@
-
 import React from "react";
+
 
 var project = setInterval(projectDone, 10);
 var clients = setInterval(happyClients, 10);
@@ -51,6 +51,7 @@ function trpy2() {
 
 
 class About extends React.Component {
+
   constructor() {
     super();
     this.state = {
@@ -139,7 +140,6 @@ class About extends React.Component {
         },
       ],
 
-       
       about_me: [
         {
           id: "first-p-about",
@@ -150,19 +150,13 @@ class About extends React.Component {
     };
   }
 
-
-
-
-
   // ----------------------------------------------------------
 
-  
-
-  
-
   render() {
+
+  
     return (
-      <section id="about" className="about-mf sect-pt4 route">
+      <section id="about" className="about-mf sect-pt4 route"  >
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -208,12 +202,8 @@ class About extends React.Component {
                         );
                       })}
                     </div>
-
-                    
                   </div>
                   <div className="col-md-6">
-
-                    
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
@@ -225,8 +215,6 @@ class About extends React.Component {
                           </p>
                         );
                       })}
-
-                      
 
                       <div className="socials1">
                         <ul>
@@ -313,8 +301,6 @@ class About extends React.Component {
                           </li>
                         </ul>
                       </div>
-
-                      
                     </div>
                   </div>
                 </div>
