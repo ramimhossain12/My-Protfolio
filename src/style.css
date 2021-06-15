@@ -369,7 +369,6 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
- 
   z-index: 9999;
   overflow: hidden;
   background: #fff;
@@ -412,6 +411,93 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 /*
 NAVBAR
@@ -625,7 +711,7 @@ INTRO
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .intro .intro-content {
@@ -750,6 +836,7 @@ ABOUT
 
 .skill-mf .progress .progress-bar {
   height: .6rem;
+  background-color: #22a157;
 
   
 }
@@ -818,7 +905,7 @@ Eudcation
 .tpg span {
      width: 800px;
     
-     background: rgb(51, 161, 29);
+     background: rgb(152, 161, 29);
      height: 3px;
      display: block;
     
@@ -827,7 +914,7 @@ Eudcation
   
 
 .title{
-  color: rgb(51, 161, 29);
+  color: rgb(152, 161, 29);
   font-size: 25px;
   font-weight: 400px;
     animation: slideInLeft 1.4s ease;
@@ -1187,21 +1274,21 @@ TESTIMONIALS
 
  .project-counter-wrp li:nth-child(1) {
      
-   box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
+   /* box-shadow: 5px 10px 20px 1px rgb(63, 85, 146); */
  }
 
  .project-counter-wrp li:nth-child(2) {
- 
-  box-shadow: 5px 10px 20px 1px rgb(63, 82, 146);
+/*  
+  box-shadow: 5px 10px 20px 1px rgb(63, 82, 146); */
  }
 
  .project-counter-wrp li:nth-child(3) {
  
-  box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
+  /* box-shadow: 5px 10px 20px 1px rgb(63, 85, 146); */
  }
  .project-counter-wrp li:nth-child(4) {
   
-  box-shadow: 5px 10px 20px 1px rgb(63, 85, 146);
+  /* box-shadow: 5px 10px 20px 1px rgb(63, 85, 146); */
  }
 
  .project-counter-wrp li p.number {
@@ -1212,7 +1299,7 @@ TESTIMONIALS
  }
 
  .project-counter-wrp li p {
-   color: rgb(231, 55, 122);
+   color: #22a157;
    font-size: 18px;
    margin: 0;
    padding: 10px;

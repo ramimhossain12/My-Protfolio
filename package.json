@@ -17,6 +17,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^4.2.0",
+    "react-preloader-icon": "^1.0.0",
     "react-scripts": "^3.3.0",
     "react-typed": "^1.1.2",
     "typed.js": "^2.0.10"

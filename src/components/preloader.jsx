@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+ 
+ 
+
 import $ from "jquery";
 
 class Preloader extends React.Component {
@@ -7,7 +9,7 @@ class Preloader extends React.Component {
     $(window).on("load", function () {
       if ($("#preloader").length) {
         $("#preloader")
-          .delay(60)
+          .delay(100)
           .fadeOut("slow", function () {
             $(this).remove();
           });
@@ -17,7 +19,9 @@ class Preloader extends React.Component {
   
 
   render() {
-    return <div id="preloader"></div>;
+    return <div id="preloader">
+              
+    </div>;
   }
 }
 
